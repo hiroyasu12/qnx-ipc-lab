@@ -94,6 +94,21 @@ const int status = MsgSend(
 
 サーバーは通常メッセージ以外も受ける。`rcvid == 0`はパルス、`rcvid == -1`は受信エラー。接続終了通知のパルスには`MsgReply()`せず、必要な接続の後始末をする。
 
+sequenceDiagram
+    participant C as クライアント
+    participant K as QNXの通信機構
+    participant S as サーバー
+    S->>K: name_attach：名前とチャネルを登録
+    S->>K: MsgReceive：受信待ち
+    C->>K: name_open：名前から接続を取得
+    K-->>C: coid
+    C->>K: MsgSend：7と5を送信
+    Note over C: 返信待ち
+    K-->>S: 要求データとrcvid
+    S->>K: MsgReply：結果12を返信
+    K-->>C: 返信データを渡し、待機を解除
+    S->>K: MsgReceive：次の要求を待つ
+
 ## ビルドと実行
 
 ### Windows側：コマンドプロンプトでビルド
