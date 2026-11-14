@@ -1,0 +1,11 @@
+# Build outputs
+build/
+out/
+*.o
+*.a
+*.so
+*.exe
+
+# Local files
+*.log
+*.core
