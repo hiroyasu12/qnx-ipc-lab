@@ -1,0 +1,5 @@
+﻿generated\v1\lab\calculator\Calculator.hpp
+generated\v1\lab\calculator\CalculatorProxy.hpp
+generated\v1\lab\calculator\CalculatorProxyBase.hpp
+generated\v1\lab\calculator\CalculatorStub.hpp
+generated\v1\lab\calculator\CalculatorStubDefault.hpp

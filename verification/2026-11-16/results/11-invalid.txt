@@ -1,0 +1,4 @@
+[stream] write bytes=4
+[stream] read bytes=4
+[stream] rejected invalid line
+[parent] child reaped: FAIL

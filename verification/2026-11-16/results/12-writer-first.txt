@@ -1,0 +1,4 @@
+[fifo] before open /tmp/qnx-ipc-lab-add-12.fifo
+[fifo] after open
+[stream] write bytes=4
+[writer] PASS

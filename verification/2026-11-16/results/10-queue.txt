@@ -1,0 +1,16 @@
+[producer] cleanup done
+[producer] mq_send accepted #1; calculation not confirmed
+PASS
+[consumer] mq_receive bytes=8 result=12
+PASS
+[producer] mq_send accepted #1; calculation not confirmed
+[producer] mq_send accepted #2; calculation not confirmed
+[producer] third send EAGAIN=1
+PASS
+[consumer] mq_receive bytes=8 result=12
+PASS (queue retained)
+[producer] mq_send accepted #1; calculation not confirmed
+PASS
+[consumer] mq_receive bytes=8 result=12
+[consumer] mq_receive bytes=8 result=12
+PASS

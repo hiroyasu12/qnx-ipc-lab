@@ -1,0 +1,5 @@
+[server] name=qnx-ipc-lab-fidl
+[server] MsgReceive application request
+[stub] dispatch add(7, 5)
+[service] add result=12
+[stub] MsgReply result=12

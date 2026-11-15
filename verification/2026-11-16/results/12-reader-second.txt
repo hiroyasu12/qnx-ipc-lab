@@ -1,0 +1,7 @@
+[fifo] before open /tmp/qnx-ipc-lab-add-12.fifo
+[fifo] after open
+[reader] waiting in read
+[stream] read bytes=4
+[stream] line complete result=12
+[stream] read=0 EOF
+[reader] PASS (existing FIFO retained)

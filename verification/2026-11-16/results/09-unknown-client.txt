@@ -1,0 +1,2 @@
+[client] unknown rejected=1 errno=89
+PASS

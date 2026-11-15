@@ -1,0 +1,27 @@
+﻿QNX noname 8.0.0 2026/10/30-09:10:05EDT x86pc x86_64
+     pid Arguments
+       1 procnto-smp-instr -mr -d 0777 -u 0777 
+   16387 slogger2 -U 21:21 
+   28676 pci-server --aspace-enable --config=/proc/boot/pci_server.cfg 
+   49157 devc-con -e 
+   57351 ksh ksh 
+   65544 ksh ksh 
+   73737 ksh ksh 
+   81930 ksh ksh 
+   86022 fsevmgr 
+   90123 devb-eide cam user=20:20 blk cache=64M,auto=partition,vnode=2000,ncache=2000,commit=low 
+  155660 random -U 22:22 -s /data/var/random/rnd-seed 
+  167949 pipe -U 24:24 
+  180238 devc-pty -U 37:37 
+  184335 dumper -U 30:30 -d /data/var/dumper -M 1000 -D cores 
+  188432 io-sock -m phy -m pci -m usb -d vtnet_pci 
+  249876 dhcpcd: [manager] [ip4] [ip6] -bq -f /system/etc/dhcpcd/dhcpcd.conf -c /system/etc/dhcpcd/dhcpcd-run-hooks 
+  274449 /system/bin/sshd -f /system/etc/ssh/sshd_config 
+  278546 qconn 
+  282643 mqueue 
+  307222 io-usb-otg -d hcd-uhci -d hcd-ehci -d hcd-xhci 
+ 1380354 /system/bin/sshd-session -f /system/etc/ssh/sshd_config -R 
+ 1392661 /system/bin/sshd-session -f /system/etc/ssh/sshd_config -R 
+ 1392663 sh -c sh 
+ 1404952 pidin ar 
+Lab FIFO and queue removed

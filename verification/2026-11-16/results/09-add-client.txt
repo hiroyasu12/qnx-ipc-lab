@@ -1,0 +1,5 @@
+[client] call proxy.add(7, 5)
+[proxy] add -> MsgSend(7, 5)
+[proxy] MsgSend returned result=12
+[client] result=12
+PASS

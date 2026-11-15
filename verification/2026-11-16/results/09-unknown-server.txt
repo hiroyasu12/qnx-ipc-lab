@@ -1,0 +1,3 @@
+[server] name=qnx-ipc-lab-fidl
+[server] MsgReceive application request
+[stub] rejected method=513 error=89

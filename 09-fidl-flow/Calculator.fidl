@@ -1,0 +1,9 @@
+package lab.calculator
+
+interface Calculator {
+    version { major 1 minor 0 }
+    method add {
+        in { Int32 left Int32 right }
+        out { Int64 result }
+    }
+}

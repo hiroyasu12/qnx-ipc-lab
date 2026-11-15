@@ -1,0 +1,1 @@
+[reader] FIFO prepared; retained for writer-first experiment

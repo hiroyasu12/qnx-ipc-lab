@@ -1,0 +1,5 @@
+[stream] write bytes=4
+[stream] read bytes=4
+[stream] line complete result=12
+[stream] read=0 EOF
+[parent] child reaped: PASS

@@ -1,0 +1,16 @@
+﻿Executing CommonAPI Core Code Generation...
+
+Skeleton code will be created
+Skeleton postfix: Default
+Default output directory: generated
+Using Franca Version 0.13.1.201807231814
+and CommonAPI Version 3.2.15.v202410041619
+log4j:WARN No appenders could be found for logger (org.eclipse.xtext.parser.antlr.AbstractInternalAntlrParser).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Generating code for C:\Users\hi9nn\qnxprojects\qnx-ipc-lab\09-fidl-flow\Calculator.fidl
+generated/v1/lab/calculator/Calculator.hpp
+generated/v1/lab/calculator/CalculatorStub.hpp
+generated/v1/lab/calculator/CalculatorProxyBase.hpp
+generated/v1/lab/calculator/CalculatorStubDefault.hpp
+generated/v1/lab/calculator/CalculatorProxy.hpp

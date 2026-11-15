@@ -1,0 +1,4 @@
+[stream] read bytes=64
+[stream] write bytes=65
+[stream] rejected line longer than 63 bytes
+[parent] child reaped: FAIL

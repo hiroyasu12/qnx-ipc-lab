@@ -1,0 +1,5 @@
+[stream] write bytes=3
+[stream] read bytes=3
+[stream] read=0 EOF
+[stream] rejected unterminated line
+[parent] child reaped: FAIL
